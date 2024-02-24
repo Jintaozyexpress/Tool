@@ -1,0 +1,28 @@
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to right, #ff7e5f, #feb47b);
+  margin: 0;
+  padding: 20px;
+  text-align: center;
+}
+
+#menu {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.menu-item {
+  background: linear-gradient(to bottom, #ff9a8e, #fec6a7);
+  padding: 10px 20px;
+  border-radius: 5px;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.menu-item:hover {
+  background: linear-gradient(to bottom, #ff7e5f, #feb47b);
+}
