@@ -10,7 +10,9 @@ document.addEventListener('DOMContentLoaded', function() {
     div.className = 'menu-item';
     div.style.backgroundColor = color;
     div.textContent = `Go to Page ${i + 1}`;
-    div.href = link;
+    div.onclick = function() {
+      window.location.href = link; // 使用 window.location.href 跳转到链接
+    };
 
     menu.appendChild(div);
   }
