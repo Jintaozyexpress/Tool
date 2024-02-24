@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const div = document.createElement('div');
     div.className = 'menu-item';
     div.style.backgroundColor = color;
-    div.textContent = `Go to Page ${i + 1}`;
+    div.textContent = `点击跳转 ${i + 1}`;
     div.onclick = function() {
       window.location.href = link; // 使用 window.location.href 跳转到链接
     };
